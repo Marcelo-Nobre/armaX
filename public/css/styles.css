@@ -47,10 +47,26 @@ header {
   width: 40px;
 }
 
-#navbar {
+#navbar { 
+  display:flex;
   justify-content: space-between;
   background-color: #FFF;
   padding: 5px 0;
+}
+.navbar-nav
+{
+  display:flex;
+}
+
+.nav-item
+{
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-link
+{
+  text-decoration: none;
 }
 
 #navbar a {
@@ -191,6 +207,10 @@ header {
 
 #items-list li {
   display: flex;
+}
+
+#description-container{
+  margin-top: 30px;
 }
 
 /* footer */
